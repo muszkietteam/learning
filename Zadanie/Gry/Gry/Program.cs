@@ -16,7 +16,8 @@ namespace Gry
                 { "Krzyżacy", "Henryk Sienkiewicz" },
                 { "Wiedźmin", "Andrzej Sapkowski" },
                 { "World of Warcraft", "King William" },
-                { "Abecadło", "Ania Ann" }
+                { "Abecadło", "Ania Ann" },
+                { "BEada", "Dqqwdqwd" }
                 
 
             };

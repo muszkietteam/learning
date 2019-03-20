@@ -24,6 +24,7 @@ namespace Ksiazki
             {"5. Wyszukaj tytuł"},
             {"6. Szukaj ksiazek autora"},
             {"7. Wyczyść bibliotekę"},
+            {"10. test paweł"},
             {"0. Wyjdź z programu"},
         };
 
