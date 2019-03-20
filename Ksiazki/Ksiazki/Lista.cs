@@ -25,6 +25,7 @@ namespace Ksiazki
             {"6. Szukaj ksiazek autora"},
             {"7. Wyczyść bibliotekę"},
             {"10. test paweł"},
+            {"101. super test paweł"},
             {"0. Wyjdź z programu"},
         };
 
