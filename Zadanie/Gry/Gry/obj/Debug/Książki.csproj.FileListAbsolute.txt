@@ -1,0 +1,14 @@
+C:\Users\Paweł\Desktop\Prezentacja\Zadanie\Gry\Gry\bin\Debug\Gry.exe.config
+C:\Users\Paweł\Desktop\Prezentacja\Zadanie\Gry\Gry\bin\Debug\Gry.exe
+C:\Users\Paweł\Desktop\Prezentacja\Zadanie\Gry\Gry\bin\Debug\Gry.pdb
+C:\Users\Paweł\Desktop\Prezentacja\Zadanie\Gry\Gry\obj\Debug\Książki.csprojAssemblyReference.cache
+C:\Users\Paweł\Desktop\Prezentacja\Zadanie\Gry\Gry\obj\Debug\Książki.csproj.CoreCompileInputs.cache
+C:\Users\Paweł\Desktop\Prezentacja\Zadanie\Gry\Gry\obj\Debug\Gry.exe
+C:\Users\Paweł\Desktop\Prezentacja\Zadanie\Gry\Gry\obj\Debug\Gry.pdb
+D:\Prezentacja\Zadanie\Gry\Gry\obj\Debug\Książki.csprojAssemblyReference.cache
+D:\Prezentacja\Zadanie\Gry\Gry\obj\Debug\Książki.csproj.CoreCompileInputs.cache
+D:\Prezentacja\Zadanie\Gry\Gry\obj\Debug\Gry.exe
+D:\Prezentacja\Zadanie\Gry\Gry\obj\Debug\Gry.pdb
+D:\Prezentacja\Zadanie\Gry\Gry\bin\Debug\Gry.exe.config
+D:\Prezentacja\Zadanie\Gry\Gry\bin\Debug\Gry.exe
+D:\Prezentacja\Zadanie\Gry\Gry\bin\Debug\Gry.pdb

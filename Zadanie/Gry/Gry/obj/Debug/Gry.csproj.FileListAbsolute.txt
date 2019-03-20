@@ -1,0 +1,7 @@
+C:\Users\Paweł\Desktop\Prezentacja\Przykładowy\Gry\Gry\bin\Debug\Gry.exe.config
+C:\Users\Paweł\Desktop\Prezentacja\Przykładowy\Gry\Gry\bin\Debug\Gry.exe
+C:\Users\Paweł\Desktop\Prezentacja\Przykładowy\Gry\Gry\bin\Debug\Gry.pdb
+C:\Users\Paweł\Desktop\Prezentacja\Przykładowy\Gry\Gry\obj\Debug\Gry.csprojAssemblyReference.cache
+C:\Users\Paweł\Desktop\Prezentacja\Przykładowy\Gry\Gry\obj\Debug\Gry.csproj.CoreCompileInputs.cache
+C:\Users\Paweł\Desktop\Prezentacja\Przykładowy\Gry\Gry\obj\Debug\Gry.exe
+C:\Users\Paweł\Desktop\Prezentacja\Przykładowy\Gry\Gry\obj\Debug\Gry.pdb
