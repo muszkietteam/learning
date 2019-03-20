@@ -27,6 +27,8 @@ namespace Ksiazki
             {"10. test paweł"},
             {"101. super test paweł"},
             {"0. Wyjdź z programu"},
+            {"0. Wyjdź z programuadshfaisfgafafaihs"},
+            {"0. Wdqwdqwdasdasdź z programuadsqwdqwdqwawdawhfaisfgafafaihs"},
         };
 
         public void showMenu()
