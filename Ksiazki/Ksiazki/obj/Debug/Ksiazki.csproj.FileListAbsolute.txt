@@ -1,0 +1,14 @@
+C:\Users\Stacja\Desktop\Dawid\Ksiazki\Ksiazki\bin\Debug\Ksiazki.exe.config
+C:\Users\Stacja\Desktop\Dawid\Ksiazki\Ksiazki\bin\Debug\Ksiazki.exe
+C:\Users\Stacja\Desktop\Dawid\Ksiazki\Ksiazki\bin\Debug\Ksiazki.pdb
+C:\Users\Stacja\Desktop\Dawid\Ksiazki\Ksiazki\obj\Debug\Ksiazki.csprojAssemblyReference.cache
+C:\Users\Stacja\Desktop\Dawid\Ksiazki\Ksiazki\obj\Debug\Ksiazki.csproj.CoreCompileInputs.cache
+C:\Users\Stacja\Desktop\Dawid\Ksiazki\Ksiazki\obj\Debug\Ksiazki.exe
+C:\Users\Stacja\Desktop\Dawid\Ksiazki\Ksiazki\obj\Debug\Ksiazki.pdb
+C:\Users\cp24\Desktop\pw\pw2\Dawid\Ksiazki\Ksiazki\bin\Debug\Ksiazki.exe.config
+C:\Users\cp24\Desktop\pw\pw2\Dawid\Ksiazki\Ksiazki\bin\Debug\Ksiazki.exe
+C:\Users\cp24\Desktop\pw\pw2\Dawid\Ksiazki\Ksiazki\bin\Debug\Ksiazki.pdb
+C:\Users\cp24\Desktop\pw\pw2\Dawid\Ksiazki\Ksiazki\obj\Debug\Ksiazki.csprojAssemblyReference.cache
+C:\Users\cp24\Desktop\pw\pw2\Dawid\Ksiazki\Ksiazki\obj\Debug\Ksiazki.csproj.CoreCompileInputs.cache
+C:\Users\cp24\Desktop\pw\pw2\Dawid\Ksiazki\Ksiazki\obj\Debug\Ksiazki.exe
+C:\Users\cp24\Desktop\pw\pw2\Dawid\Ksiazki\Ksiazki\obj\Debug\Ksiazki.pdb
