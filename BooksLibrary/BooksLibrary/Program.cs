@@ -11,9 +11,9 @@ namespace BooksLibrary
     {
         static void Main(string[] args)
         {
-            
+
             Menu menu = new Menu();
-            
+
             menu.showTitle();
             menu.showMenu();
             int option = -1;
@@ -27,57 +27,58 @@ namespace BooksLibrary
                 }
                 catch (FormatException)
                 {
-                    
+
                 }
             }
 
 
-            while (true){ 
-            switch (option)
+            while (true)
             {
-                case 1:
-                    Console.Clear();
-                    menu.showLibrary(menu.books);
-                    break;
+                switch (option)
+                {
+                    case 1:
+                        Console.Clear();
+                        menu.showLibrary(menu.books);
+                        break;
 
-                case 2:
-                    Console.Clear();
-                    menu.addBook();
-                    break;
+                    case 2:
+                        Console.Clear();
+                        menu.addBook();
+                        break;
 
-                case 3:
-                    Console.Clear();
-                    menu.deleteBook();
-                    break;
+                    case 3:
+                        Console.Clear();
+                        menu.deleteBook();
+                        break;
 
-                case 4:
-                    Console.Clear();
-                    menu.checkIsRead();
-                    break;
+                    case 4:
+                        Console.Clear();
+                        menu.checkIsRead();
+                        break;
 
-                case 5:
-                    Console.Clear();
-                    menu.showAuthorBooks();
-                    break;
+                    case 5:
+                        Console.Clear();
+                        menu.showAuthorBooks();
+                        break;
 
-                case 6:
-                    Console.Clear();
-                    menu.showTitleBook();
-                    break;
+                    case 6:
+                        Console.Clear();
+                        menu.showTitleBook();
+                        break;
 
-                case 7:
-                    Console.Clear();
-                    menu.sortByTitle();
-                    break;
+                    case 7:
+                        Console.Clear();
+                        menu.sortByTitle();
+                        break;
 
-                case 8:
-                    Console.Clear();
-                    menu.sortByAuthor();
-                    break;
+                    case 8:
+                        Console.Clear();
+                        menu.sortByAuthor();
+                        break;
 
-                case 9: return;
-                    
-            }
+                    case 9: return;
+
+                }
 
                 option = -1;
                 menu.showMenu();
@@ -95,17 +96,6 @@ namespace BooksLibrary
                 }
 
             }
-
-
-
-
-
-
-
-           
-            
         }
-          
-        
     }
 }

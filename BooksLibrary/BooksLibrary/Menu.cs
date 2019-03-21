@@ -76,9 +76,9 @@ namespace BooksLibrary
 
         public void addBook()
         {
-            
+
             string title, author;
-            int releaseYear=0;
+            int releaseYear = 0;
             do
             {
                 Console.Clear();
@@ -87,8 +87,8 @@ namespace BooksLibrary
             } while (string.IsNullOrEmpty(title));
 
 
-            
-             do
+
+            do
             {
                 Console.Clear();
                 Console.WriteLine("Podaj autora (OBOWIĄZKOWO)");
@@ -123,7 +123,7 @@ namespace BooksLibrary
                 Console.Clear();
                 Console.WriteLine("Wpisałeś złą wartośc, a więc książka została zaznaczona domyślnie jako nieprzeczytana!\n");
             }
-            
+
 
             try
             {
@@ -167,7 +167,7 @@ namespace BooksLibrary
                     String title = Console.ReadLine();
                     Boolean flag = false;
 
-                    for (int i = 0; i<books.Count() ; i++)
+                    for (int i = 0; i < books.Count(); i++)
                     {
                         if (books[i].title.ToLower() == title.ToLower())
                         {
@@ -175,7 +175,7 @@ namespace BooksLibrary
                             flag = true;
                         }
 
-                        
+
                     }
                     Console.Clear();
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -197,7 +197,7 @@ namespace BooksLibrary
                             flag1 = true;
                         }
 
-                        
+
                     }
                     Console.Clear();
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -205,7 +205,7 @@ namespace BooksLibrary
                     else Console.WriteLine("Brak książki o podanym ID!\n\n");
                     Console.ResetColor();
                     break;
-                    
+
                 case 3:
                     Console.WriteLine("Podaj autora, którego książki chcesz usunąc.");
                     String author = Console.ReadLine();
@@ -219,7 +219,7 @@ namespace BooksLibrary
                             flag2 = true;
                         }
 
-                        
+
                     }
                     Console.Clear();
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -229,8 +229,8 @@ namespace BooksLibrary
                     break;
 
                 case 4:
-                    
-                 
+
+
                     Boolean flag3 = false;
 
                     for (int i = 0; i < books.Count(); i++)
@@ -241,7 +241,7 @@ namespace BooksLibrary
                             flag3 = true;
                         }
 
-                        
+
                     }
                     Console.Clear();
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -250,7 +250,7 @@ namespace BooksLibrary
                     Console.ResetColor();
                     break;
 
-                
+
             }
 
         }
@@ -258,7 +258,7 @@ namespace BooksLibrary
         public void checkIsRead()
         {
             Console.WriteLine("Podaj ID książki którą przeczytałeś");
-            int id=-1;
+            int id = -1;
             Boolean flag = false;
             try
             {
@@ -268,7 +268,7 @@ namespace BooksLibrary
             {
                 return;
             }
-            
+
 
             for (int i = 0; i < books.Count(); i++)
             {
@@ -286,8 +286,8 @@ namespace BooksLibrary
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Brak książki o podanym ID.");
                     Console.ResetColor();
-                } 
-                
+                }
+
             }
 
         }
@@ -300,15 +300,15 @@ namespace BooksLibrary
             Console.Clear();
             for (int i = 0; i < books.Count(); i++)
             {
-                
+
                 if (books[i].author.ToLower().CompareTo(author.ToLower()) == 1)
                 {
 
-                    Console.WriteLine("ID KSIĄŻKI: " + books[i].id + "\nTYTUŁ: " + books[i].title +"\nROK WYDANIA: " + books[i].releaseYear + "\nSTATUS: " + books[i].orReads() + "\n" + ("").PadRight(100, '.'));
+                    Console.WriteLine("ID KSIĄŻKI: " + books[i].id + "\nTYTUŁ: " + books[i].title + "\nROK WYDANIA: " + books[i].releaseYear + "\nSTATUS: " + books[i].orReads() + "\n" + ("").PadRight(100, '.'));
                     flag = true;
                 }
 
-                
+
 
             }
             if (!flag) Console.WriteLine("Brak książek tego autora.\n\n");
@@ -322,7 +322,7 @@ namespace BooksLibrary
             Console.Clear();
             for (int i = 0; i < books.Count(); i++)
             {
-                
+
                 if (books[i].title.ToLower().CompareTo(title.ToLower()) == 1)
                 {
 
@@ -330,7 +330,7 @@ namespace BooksLibrary
                     flag = true;
                 }
 
-                
+
 
             }
             if (!flag) Console.WriteLine("Brak książek o podanym tytule.");
@@ -340,7 +340,7 @@ namespace BooksLibrary
         {
             ArrayList nowa = new ArrayList(books.OrderBy(x => x.title).ToList());
 
-            foreach(Book option in nowa)
+            foreach (Book option in nowa)
 
                 Console.WriteLine("ID KSIĄŻKI: " + option.id + "\nTYTUŁ: " + option.title + "\nAUTOR: " + option.author + "\nROK WYDANIA: " + option.releaseYear + "\nSTATUS: " + option.orReads() + "\n" + ("").PadRight(100, '.'));
 
@@ -349,15 +349,15 @@ namespace BooksLibrary
 
         public void sortByAuthor()
         {
-            
-                ArrayList nowa = new ArrayList(books.OrderBy(x => x.author).ToList());
 
-                foreach (Book option in nowa)
+            ArrayList nowa = new ArrayList(books.OrderBy(x => x.author).ToList());
 
-                    Console.WriteLine("ID KSIĄŻKI: " + option.id + "\nTYTUŁ: " + option.title + "\nAUTOR: " + option.author + "\nROK WYDANIA: " + option.releaseYear + "\nSTATUS: " + option.orReads() + "\n" + ("").PadRight(100, '.'));
+            foreach (Book option in nowa)
 
-                Console.WriteLine();
-            
+                Console.WriteLine("ID KSIĄŻKI: " + option.id + "\nTYTUŁ: " + option.title + "\nAUTOR: " + option.author + "\nROK WYDANIA: " + option.releaseYear + "\nSTATUS: " + option.orReads() + "\n" + ("").PadRight(100, '.'));
+
+            Console.WriteLine();
+
         }
     }
 }

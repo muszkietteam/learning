@@ -19,7 +19,7 @@ namespace BooksLibrary
         public Book(string title, string author, int releaseYear, Boolean read = false)
         {
 
-            if(checkIsNotNull(title, author, releaseYear))
+            if (checkIsNotNull(title, author, releaseYear))
             {
                 id = nextId++;
                 this.title = title;
@@ -28,8 +28,8 @@ namespace BooksLibrary
                 this.read = read;
             }
             else { Console.WriteLine("Musisz podac wszystkie wymagane dane!"); }
-  
-            
+
+
         }
 
         Boolean checkIsNotNull(string title, string author, int releaseYear)
@@ -44,10 +44,10 @@ namespace BooksLibrary
             else return "nieprzeczytana";
         }
 
-        
+
 
 
     }
 
-    
+
 }
